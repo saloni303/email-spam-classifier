@@ -1,3 +1,6 @@
+import sys
+import subprocess
+subprocess.call([sys.executable, '-m', 'pip', 'install', 'nltk'])
 import streamlit as st
 import pickle
 import string
